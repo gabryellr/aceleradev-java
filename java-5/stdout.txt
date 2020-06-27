@@ -1,0 +1,18 @@
+Starting a Gradle Daemon, 3 busy and 1 incompatible and 1 stopped Daemons could not be reused, use --status for details
+> Task :clean
+> Task :compileJava
+> Task :processResources
+> Task :classes
+> Task :compileTestJava
+> Task :processTestResources NO-SOURCE
+> Task :testClasses
+
+> Task :test
+2020-06-07 17:11:04.593  INFO 18172 --- [       Thread-6] ConfigServletWebServerApplicationContext : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7892824a: startup date [Sun Jun 07 17:10:59 BRT 2020]; root of context hierarchy
+2020-06-07 17:11:04.596  INFO 18172 --- [       Thread-6] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-06-07 17:11:04.599  INFO 18172 --- [       Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-06-07 17:11:04.593  INFO 18172 --- [       Thread-8] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@ac15bc9: startup date [Sun Jun 07 17:11:04 BRT 2020]; root of context hierarchy
+2020-06-07 17:11:04.603  INFO 18172 --- [       Thread-6] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+
+BUILD SUCCESSFUL in 12s
+5 actionable tasks: 5 executed
